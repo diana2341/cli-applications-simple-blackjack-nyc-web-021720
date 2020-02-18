@@ -69,8 +69,8 @@ def runner
   round=initial_round
    until round > 21 do
   round=hit?(round)
+
   display_card_total(round)
-binding.pry
 end
 end_game(round)
 end
